@@ -4,8 +4,8 @@ export const DEVELOPER_NAME = 'JRS';
 export const SUPPORT_EMAIL = 'contact@mmenu.vn';
 export const SUPPORT_HOTLINE = '+84947586666';
 export const SUPPORT_HOTLINE_HREF = 'tel:+84947586666';
-export const WEBSITE_URL = 'https://mmenu.vn';
-export const LOGO_PATH = '/logo_jrs.png';
+export const WEBSITE_URL = 'https://mido2610.github.io/jrs-pos-web/';
+export const LOGO_PATH = `${import.meta.env.BASE_URL}logo_jrs.png`;
 
 export const DELETE_ACCOUNT_SUBJECT = `Delete Account Request – ${APP_NAME} POS`;
 export const SUPPORT_HOURS = 'Mon – Sat, 8:00 AM – 6:00 PM';
