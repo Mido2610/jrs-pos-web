@@ -8,6 +8,7 @@ import { ThemeProvider } from './theme/themeProvider';
 const Home = lazy(() => import('./pages/Home'));
 const Contact = lazy(() => import('./pages/Contact'));
 const DeleteAccount = lazy(() => import('./pages/DeleteAccount'));
+const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App: React.FC = () => (
@@ -18,6 +19,7 @@ const App: React.FC = () => (
           <Route index element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/delete-account" element={<DeleteAccount />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         </Route>
         <Route path="*" element={<NotFound />} />
       </Routes>

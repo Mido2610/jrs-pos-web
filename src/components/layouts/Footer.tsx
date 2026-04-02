@@ -62,6 +62,9 @@ const Footer: React.FC = () => {
               <MuiLink component={Link} to="/delete-account" variant="body2" sx={{ color: 'rgba(255,255,255,0.55)', textDecoration: 'none', '&:hover': { color: '#fff' } }}>
                 {t('footerDeleteAccount')}
               </MuiLink>
+              <MuiLink component={Link} to="/privacy-policy" variant="body2" sx={{ color: 'rgba(255,255,255,0.55)', textDecoration: 'none', '&:hover': { color: '#fff' } }}>
+                {t('navPrivacyPolicy')}
+              </MuiLink>
             </Stack>
           </Grid>
 

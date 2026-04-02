@@ -32,6 +32,7 @@ const NAV_KEYS = [
   { tKey: 'navHome', path: '/' },
   { tKey: 'navContact', path: '/contact' },
   { tKey: 'navDeleteAccount', path: '/delete-account' },
+  { tKey: 'navPrivacyPolicy', path: '/privacy-policy' },
 ] as const;
 
 const Navbar: React.FC = () => {

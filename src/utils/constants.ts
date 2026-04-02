@@ -15,4 +15,5 @@ export const NAV_ROUTES = [
   { label: 'Home', path: '/' },
   { label: 'Contact', path: '/contact' },
   { label: 'Delete Account', path: '/delete-account' },
+  { label: 'Privacy Policy', path: '/privacy-policy' },
 ] as const;
